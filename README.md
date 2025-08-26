@@ -6,9 +6,9 @@ This repo has all necessary Unity packages and libraries to run the tests as the
 
 Test secenarios:
 
-SubmitButton_IsInteractable - checks if the submit button can be pressed
-Count_Increases_WhenSubmitPressed - checks that pressing Submit button increments the counter by exactly 1
-Count_IsTen_AfterTenSubmits - check whether the counter is exactly 10 after 10 clicks
+- SubmitButton_IsInteractable - checks if the submit button can be pressed-
+- Count_Increases_WhenSubmitPressed - checks that pressing Submit button increments the counter by exactly 1
+- Count_IsTen_AfterTenSubmits - check whether the counter is exactly 10 after 10 clicks
 
 
 
@@ -18,6 +18,11 @@ Prerequisites:
 - Unity editor (2022.3.62f1)
 - AltTester Desktop App
 - Counter Button application build (from: https://github.com/Estoty/qa-engineer-test)
+
+Building the Counter button exe file:
+- Clone the Counter Button project
+- Open in Unity (matching the editor version used in this test project: 2022.3.62f1)
+- Build the project ( File -> Build settings -> Pick windows standalone system -> choose a folder to save the file and click Build)
 
 Setup:
 Launch necessary apps
