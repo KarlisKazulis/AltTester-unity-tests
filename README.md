@@ -37,5 +37,7 @@ Expected behaviour:
 - Test will interact with the Submit button and count will increase
 - All three tests should pass
 
+Pictures:
+https://failiem.lv/u/2gacy8hsju
 
 
