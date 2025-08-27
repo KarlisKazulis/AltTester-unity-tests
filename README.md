@@ -17,22 +17,26 @@ Prerequisites:
 - Unity Hub (latest version)
 - Unity editor (2022.3.62f1)
 - AltTester Desktop App
-- Counter Button application build (from: https://github.com/Estoty/qa-engineer-test)
+- Counter Button project (from: https://github.com/Estoty/qa-engineer-test)
+- AltTesterUnity SDK https://alttester.com/downloads/
 
 Building the Counter button exe file:
 - Clone the Counter Button project
 - Open in Unity (matching the editor version used in this test project: 2022.3.62f1)
-- Build the project ( File -> Build settings -> Pick windows standalone system -> choose a folder to save the file and click Build)
+- Install AltTester SDK via Assets -> Import package -> Custom package
+- Add dependencies to resolve errors (from https://alttester.com/docs/sdk/latest/pages/get-started.html )
+- Drag AltTesterPrefab from Assets/AltTester/Runtime/Prefab in your scene hierarchy and save the scene
+- In Unity open AltTester -> Altester Editor. Add your scene, set a build location and build the .exe file
 
 Setup:
 Launch necessary apps
 - clone this repo
 - Launch Unity Hub and add this project folder with the correct editor version
-- run the built Counter Button application exe file
-- Open AltTester Destop and connect to aforementioned exe file
+- run the Counter Button application exe file from the build folder
+- Open AltTester Desktop and connect to aforementioned exe file
 
 Run the tests
-- In Unity Editor open Test Runner (Window -> General -> Test Runner)
+- In this project's Unity Editor open Test Runner (Window -> General -> Test Runner)
 - Select PlayMode Tests
 - Run all tests
 
